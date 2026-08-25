@@ -21,7 +21,7 @@ help:
 	@echo "  1. make setup"
 	@echo "  2. Edit src/scripts/config.local.js with your Spotify Client ID"
 	@echo "  3. make up"
-	@echo "  4. Open https://localhost:8080"
+	@echo "  4. Open http://127.0.0.1:8080"
 
 # Initial setup
 setup:
@@ -72,7 +72,7 @@ logs:
 clean:
 	@echo "🧹 Cleaning up..."
 	docker-compose down -v
-	docker rmi ex00-web 2>/dev/null || true
+	docker rmi globant2-web 2>/dev/null || true
 	@echo "✅ Cleanup complete"
 
 # Test if running

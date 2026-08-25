@@ -1,0 +1,14 @@
+{
+  "name": "globify",
+  "version": "1.0.0",
+  "description": "Spotify web player built with vanilla JS, OAuth 2.0 PKCE and the Spotify Web Playback SDK.",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "jsdom": "^24.0.0",
+    "vitest": "^1.6.0"
+  }
+}

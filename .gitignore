@@ -28,6 +28,7 @@ ssl/*.crt
 # Build output
 dist/
 build/
+coverage/
 
 # Logs
 logs/
